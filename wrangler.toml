@@ -1,0 +1,9 @@
+name = "blog-colinroper-com-notion-proxy"
+main = "src/index.ts"
+compatibility_date = "2024-01-08"
+workers_dev = true
+
+routes = [
+	{ pattern = "blog.colinroper.com", custom_domain = true },
+	{ pattern = "www.blog.colinroper.com", custom_domain = true }
+]
